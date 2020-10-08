@@ -24,7 +24,7 @@ public class Main {
     System.out.println("Please enter the 3 values for the first vector");
 
     // put the three values of the first vector into the array using a loop
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < THREE_ELEMENTS; i++){
 
       // putting the user's value into the array
       elements1 [i] = input.nextDouble();
@@ -37,7 +37,7 @@ public class Main {
     System.out.println("Please enter the 3 values for the second vector");
 
     // put the three values of the second vector into an array using a loop
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < THREE_ELEMENTS; i++){
 
       // putting the user's value into the array
       elements2 [i] = input.nextDouble();
